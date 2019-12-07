@@ -1,34 +1,30 @@
 *{
     margin:0;
-    font-family: Asap,sans-serif;
     padding:0;
+    font-family: Asap,sans-serif;
     box-sizing: border-box ;
-}
-body,html{
-
-    height: 100%;
-    width: 100%;
 }
 section {
     height: 100vh;
 }
 #page1{
-
     background-image: url(img/clone.jpg);
-     background-attachment: fixed; 
+    background-attachment: fixed; 
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:100% 100%;
     background-position:center;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.308), 0 0 10px rgba(255, 255, 255, 0.308);
+    
 }
+
 #page1 h1{
-padding: 0%;
 color: white;
-text-align: center;
+text-shadow: 0 0 15px rgba(255, 255, 255, 0.308), 0 0 10px rgba(255, 255, 255, 0.308);
 font-weight: bold;
-margin: 0%;
+text-align: center;
 font-size: 3.5em;
 padding-top: 3%;
+margin: auto;
+display: table;
 white-space: nowrap;
 overflow: visible;
 height: 90vh;
@@ -58,6 +54,8 @@ header > h1{
     text-align: center;
     font-family:'Asap', sans-serif;
     font-weight: bold;
+    white-space: nowrap;
+    overflow: visible;
     padding: 20px;
 
 }
@@ -104,8 +102,11 @@ font-size: 25px;
 .choices{
 margin-top: 30px;
 text-align: center;
+white-space: nowrap;
+overflow: visible;
 }
 .choice{
+    
 display: inline-block;
 padding: 15px;
 margin-top: 0px;
@@ -124,108 +125,66 @@ transition: all 0.3s ease;
     text-align: center;
     font-size: 30px;
     margin-top: 15px;
+    white-space: nowrap;
+overflow: visible;
 }
 
 .res > p{
-
+    white-space: nowrap;
+    overflow: visible;
 text-align: center;
 color:rgb(255, 255, 255);
 font-size: 40px;
 margin-top: 20px;
-
 }
 #page2{
-    background-image: url(img/SECTION2.svg);
-    background-size: cover;
+    background-image: url(img/SECTION2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+@media screen and (max-width: 1000px) and (min-width: 700px) 
+{
+    .lol, .scoreboard,#ffs, .choices, .end,#page2 h1{
+        transform: scale(0.9);
+        -moz-transform: scale(0.9);
+    }
 }
 
-  @media screen and (max-width: 1000px) and (min-width: 900px) {
-    /* For mobile phones: */
-    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
-    transform: scale(0.9);
-    -moz-transform: scale(0.9);
+@media screen and (max-width: 830px) and (min-width: 750px) 
+{
+    .lol, .scoreboard,#ffs, .choices, .end,#page2 h1{
+        transform: scale(0.8);
+        -moz-transform: scale(0.8);
+    }
 }
-.choices{
 
-    padding: 10px;
+@media screen and (max-width: 749px) and (min-width: 680px) 
+{
+    .lol, .scoreboard,#ffs, .choices, .end,#page2 h1{
+        transform: scale(0.7);
+        -moz-transform: scale(0.7);
+    }
 }
-    .scoreboard{
-    width: 250px;       
-}
-  }
-  @media screen and (max-width: 899px) and (min-width: 800px) {
-    /* For mobile phones: */
-    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
-    transform: scale(0.8);
-    -moz-transform: scale(0.8);
-}
-.choices{
 
-    padding: 10px;
-}
-    .scoreboard{
-    width: 200px;       
-}
-  }
-  @media screen and (max-width: 799px) and (min-width: 700px) {
-    /* For mobile phones: */
-    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
-    transform: scale(0.7);
-    -moz-transform: scale(0.7);
-}
-.choices{
+@media screen and (max-width: 679px) and (min-width: 580px) 
+{
+    .lol, .scoreboard,#ffs, .choices, .end, #page2 h1{
+        transform: scale(0.6);
+        -moz-transform: scale(0.6);
+    }
+ }
 
-    padding: 7px;
+@media screen and (max-width: 579px) and (min-width: 300px) 
+{
+    .lol, .scoreboard,#ffs, .choices, .end, #page2 h1{
+        transform: scale(0.5);
+        -moz-transform: scale(0.5);
+    }
 }
-    .scoreboard{
-    width: 180px;       
+@media screen and (max-width: 279px) and (min-width: 0px) 
+{
+    .lol, .scoreboard,#ffs, .choices, .end, #page2 h1{
+        transform: scale(0.4);
+        -moz-transform: scale(0.4);
+    }
 }
-  }
-  @media screen and (max-width: 699px) and (min-width: 650px) {
-    /* For mobile phones: */
-    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
-    transform: scale(0.6);
-    -moz-transform: scale(0.6);
-}
-.choices{
-
-    padding: 7px;
-}
-    .scoreboard{
-    width: 150px;       
-}
-  }
-  @media screen and (max-width: 649px) and (min-width: 500px) {
-    /* For mobile phones: */
-    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
-    transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    overflow: visible;
-    white-space:nowrap ;
-}
-.choices{
-
-    padding: 2px;
-}
-    .scoreboard{
-    width: 150px;       
-}
-  }
-  @media screen and (max-width: 499px) and (min-width: 0px) {
-    /* For mobile phones: */
-    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
-    transform: scale(0.4);
-    -moz-transform: scale(0.4);
-    overflow: visible;
-    white-space:nowrap ;
-}
-.choices{
-
-    padding: 2px;
-    overflow: visible;
-    white-space:nowrap ;
-}
-    .scoreboard{
-    width: 150px;       
-}
-  }
