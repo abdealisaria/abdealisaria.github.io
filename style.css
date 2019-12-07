@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    font-family: Asap,sans-serif;
+    padding:0;
+    box-sizing: border-box ;
+}
+body,html{
+
+    height: 100%;
+    width: 100%;
+}
+section {
+    height: 100vh;
+}
+#page1{
+
+    background-image: url(img/clone.svg);
+     background-attachment: fixed; 
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.308), 0 0 10px rgba(255, 255, 255, 0.308);
+}
+#page1 h1{
+padding: 0%;
+color: white;
+text-align: center;
+font-weight: bold;
+margin: 0%;
+font-size: 3.5em;
+padding-top: 3%;
+white-space: nowrap;
+overflow: visible;
+height: 90vh;
+}
+
+#fire{
+    font-size: 2em;
+    display: table;
+    color: aliceblue;
+    text-shadow: none;
+    margin: auto;
+    text-align: center;
+}
+body{
+        background-size: cover;
+margin: 0;
+height: 100vh;
+}
+header{
+    background: black; 
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.13), 0 0 10px rgba(255, 255, 255, 0.116);
+}
+
+header > h1{
+    color:white;
+    font-size: 30pt;
+    text-align: center;
+    font-family:'Asap', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+
+}
+.scoreboard{
+
+    border: 5px solid white;
+    width: 300px;
+    margin: 60px auto;
+    color: white;
+    font-size: 30px;
+
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+.badge{
+background:rgb(218, 0, 0);
+color: white;
+padding: 10px;
+font-size: 25px;
+}
+#userlabel{
+    position: absolute;
+    top:25px;
+    padding: 10px;
+    border-radius: 5px;
+    left: -40px;
+}
+#complabel{
+    position: absolute;
+    top: 25px;
+    padding: 10px;
+    right: -40px;
+    border-radius: 5px;
+}
+.result{
+
+    font-size: 35px;
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+.choices{
+margin-top: 30px;
+text-align: center;
+}
+.choice{
+display: inline-block;
+padding: 15px;
+margin-top: 0px;
+border: solid;
+border-width: 0px;
+border-color: rgb(0, 8, 32);
+border-radius:50%;
+transition: all 0.3s ease;
+}
+.choice:hover{
+    background: rgba(1, 0, 5, 0.952);
+    cursor: pointer;
+}
+#actionmsg{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.res > p{
+
+text-align: center;
+color:rgb(255, 255, 255);
+font-size: 40px;
+margin-top: 20px;
+
+}
+#page2{
+    background-image: url(img/SECTION2.svg);
+    background-size: cover;
+}
+
+  @media screen and (max-width: 1000px) and (min-width: 900px) {
+    /* For mobile phones: */
+    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
+    transform: scale(0.9);
+    -moz-transform: scale(0.9);
+}
+.choices{
+
+    padding: 10px;
+}
+    .scoreboard{
+    width: 250px;       
+}
+  }
+  @media screen and (max-width: 899px) and (min-width: 800px) {
+    /* For mobile phones: */
+    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
+    transform: scale(0.8);
+    -moz-transform: scale(0.8);
+}
+.choices{
+
+    padding: 10px;
+}
+    .scoreboard{
+    width: 200px;       
+}
+  }
+  @media screen and (max-width: 799px) and (min-width: 700px) {
+    /* For mobile phones: */
+    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
+    transform: scale(0.7);
+    -moz-transform: scale(0.7);
+}
+.choices{
+
+    padding: 7px;
+}
+    .scoreboard{
+    width: 180px;       
+}
+  }
+  @media screen and (max-width: 699px) and (min-width: 650px) {
+    /* For mobile phones: */
+    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
+    transform: scale(0.6);
+    -moz-transform: scale(0.6);
+}
+.choices{
+
+    padding: 7px;
+}
+    .scoreboard{
+    width: 150px;       
+}
+  }
+  @media screen and (max-width: 649px) and (min-width: 500px) {
+    /* For mobile phones: */
+    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
+    transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    overflow: visible;
+    white-space:nowrap ;
+}
+.choices{
+
+    padding: 2px;
+}
+    .scoreboard{
+    width: 150px;       
+}
+  }
+  @media screen and (max-width: 499px) and (min-width: 0px) {
+    /* For mobile phones: */
+    #page1 h1, #page2 h1,#fire,#userlabel,#complabel,#userscore,#compscore,#r,#p,#s,#actionmsg,#pls{
+    transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    overflow: visible;
+    white-space:nowrap ;
+}
+.choices{
+
+    padding: 2px;
+    overflow: visible;
+    white-space:nowrap ;
+}
+    .scoreboard{
+    width: 150px;       
+}
+  }

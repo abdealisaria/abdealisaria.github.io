@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Asap:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>RPS game</title>
+</head>
+
+<body>
+  <section id="page1">
+   <h1>Welcome to Rock-Paper-Scissors</h1>    
+    <span id="fire">Sroll to start playing &#128293;</span>
+  </section>
+  <section id="page2">
+    <header>
+      <h1>"Rock &#128511;Paper &#128221; Scissors &#9986;, Shoot!"
+      </h1>
+    </header>
+    <div class="wrapper">
+      <div class="scoreboard">
+        <div class="badge" id="userlabel">
+          User
+        </div>
+        <div class="badge" id="complabel">
+          Comp
+        </div>
+        <span id="userscore">0</span>
+        -
+        <span id="compscore">0</span>
+      </div>
+      <div class="choices">
+        <div class="choice" id="r">
+          <img src="img/rock.png" alt="" width="200px" height="150px">
+        </div>
+        <div class="choice" id="p">
+          <img src="img/paper.png" alt="" width="200px" height="150px">
+        </div>
+        <div class="choice" id="s">
+          <img src="img/scissors.png" alt="" width="200px" height="150px">
+        </div>
+      </div>
+    </div>
+    <p id="actionmsg">Make your move</p>
+    <div class="res">
+      <p id="pls">Result : </p>
+    </div>
+    </div>
+  </section>
+</div>
+  <script src="logic.js"></script>
+</body>
+
+</html>
