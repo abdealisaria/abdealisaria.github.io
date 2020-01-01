@@ -418,7 +418,7 @@ main#home h1 {
     background-size: 90%;
     background-position: 70% 100%;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
   main {
     padding: 2rem;
