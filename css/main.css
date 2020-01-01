@@ -412,10 +412,10 @@ main#home h1 {
 }
 
 @media screen and (max-width: 500px) {
-  html {
+  body#bg-img {
     background: rgb(238, 238, 242);
     background-image: url(../img/background.jpg);
-    background-size: 100%;
+    background-size: 90%;
     background-position: 70% 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
