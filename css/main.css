@@ -412,7 +412,7 @@ main#home h1 {
 }
 
 @media screen and (max-width: 500px) {
-  body#bg-img {
+  .content {
     background: rgb(238, 238, 242);
     background-image: url(../img/background.jpg);
     background-size: 90%;
