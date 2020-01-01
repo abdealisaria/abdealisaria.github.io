@@ -415,7 +415,7 @@ main#home h1 {
   html {
     background: rgb(238, 238, 242);
     background-image: url(../img/background.jpg);
-    background-size: 90%;
+    background-size: 100%;
     background-position: 70% 100%;
     background-repeat: no-repeat;
     background-attachment: initial;
