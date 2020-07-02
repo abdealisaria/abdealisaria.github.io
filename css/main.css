@@ -287,12 +287,13 @@ main#home h1 {
   transition: all 0.5s ease-out;
 }
 .boxes div:hover {
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   background: black;
   color: rgb(255, 255, 255);
 }
 .boxes div:hover span {
   color: #000;
+  color: white;
 }
 
 .btn,
@@ -475,4 +476,25 @@ main#home h1 {
     width: 150px;
     height: 150px;
   }
+}
+#about {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #cce5ff 74%);
+}
+.scroll {
+  cursor: pointer;
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+}
+.mailto {
+  text-decoration: none;
+  color: white;
+}
+#contact {
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #cce5ff 74%);
+}
+.exp-role {
+  margin: 0.5rem 0;
 }

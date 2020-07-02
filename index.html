@@ -29,6 +29,27 @@
     });
   });
   $(document).ready(function () {
+    $(".scroll-about").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#about").offset().top
+      }, 1000);
+    });
+  });
+  $(document).ready(function () {
+    $(".scroll-projects").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+      }, 1000);
+    });
+  });
+  $(document).ready(function () {
+    $(".scroll-contacts").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+      }, 1000);
+    });
+  });
+  $(document).ready(function () {
     $("#contactlink").click(function () {
       $('html, body').animate({
         scrollTop: $("#contact").offset().top
@@ -104,6 +125,12 @@
             <a href="https://github.com/abdealisaria">
               <i class="fab fa-github fa-2x"></i>
             </a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <i class="fa fa-arrow-down scroll scroll-about" aria-hidden="true"></i>
           </div>
     </main>
     </section>
@@ -116,8 +143,8 @@
           <span class="text-secondary">Me</span>
         </h1>
         <p id="paddingg">Motivated computer science student with a keen interest in
-          UI/UX design & full stack development, <br> decent experience
-          managing print, interactive UI prototypes and web projects
+          UI/UX design & web development, <br>having decent experience
+          managing designs, interactive UI prototypes and web projects
           Willing to work on all <br> aspects of web development & design</p>
         <!-- <h2 class="sm-heading">
           Let me tell you a few things...
@@ -132,28 +159,28 @@
           <p>Babasaheb Gawde Institute of Technology
             (Diploma in Computer Engineering) - 75.06% &nbsp;&nbsp;[2016]</p>
           <p>Shah and Anchor Kutchhi Engineering College
-            (Bachelor of Engineering) - 6.12 CGPA &nbsp;&nbsp;[2020]</p>
+            (Bachelor of Engineering) - 6.22 CGPA &nbsp;&nbsp;[2020]</p>
         </div>
         <div class="skills">
           <h3 class="text-secondary">
             Skills
           </h3>
           <p>Front-End : HTML, CSS, JavaScript</p>
-          <p>Back-End : Java,PHP</p>
-          <p>Database : MySQL</p>
-          <p>UI/UX : Wireframing, Prototyping, Illustration</p>
+          <p>Back-End : Node, Java</p>
+          <p>Database : MongoDB, MySQL</p>
+          <p>UI/UX : Wireframing, Interaction, Prototyping, Illustration, User Research</p>
         </div>
 
         <!-- 
-        <div class=" job job-2">
+          <div class=" job job-2">
             <h3>Designers ABC</h3>
             <h6>Front End Developer</h6>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis totam enim. Nesciunt
               porro
               dolores
               expedita dolor necessitatibus deserunt nemo.</p>
-        </div>
-
+            </div>
+            
         <p class="job job-3">
           <h3>Webworks</h3>
           <h6>Graphic Designer</h6>
@@ -163,6 +190,7 @@
             expedita dolor necessitatibus deserunt nemo.</p> -->
         </p>
         </p>
+        <i class="fa fa-arrow-down scroll scroll-projects" aria-hidden="true"></i>
     </main>
     </section>
   </div>
@@ -176,65 +204,89 @@
         <div class="projects">
           <div class="job job-1">
             <h2 class="text-secondary" id="">Experience</h2>
-            <h4>Graphic Designer</h4>
-            <div/div>Created logo & branding along with various designs for screen printing using Illustrator <div>
-              Photoshop
-              Decreased rework by 22% and costs by 15%</div>
-            </p>
-          </div>
-          <br>
-          <div></div>
-          <div></div>
-          <div>
-            <h2 class="text-secondary" id="newline">Projects</h2>
-            <!-- <h6>Flappy Bot using AI</h6> -->
-            <p><strong>Flappy Bot using AI</strong> <br> Using gentetic algorithm and a multi layer feed forward
-              neural network to train <br> an AI bot to learn a flappy bird
-              clone game demonstrating neuroevolution
-            </p>
-          </div>
+            <h4 class="exp-role">Graphic Designer ( 1 year )</h4>
+            <div>Created logo & branding along with various designs for screen printing using Illustrator <div>
+                and Photoshop. Decreased rework by 22% and costs by 15%<div><a
+                    href="https://www.behance.net/gallery/81199905/Work-Samples">Work-Samples</a></div>
+                </p>
+              </div>
+              <br>
+              <div></div>
+              <div></div>
+              <div>
+                <h2 class="text-secondary" id="newline">Projects</h2>
+                <!-- <h6>Flappy Bot using AI</h6> -->
+                <p><strong>Game Bot using AI <em>(HTML, JavaScript, tensorflow, p5)</em></strong> <br>
+                  Using genetic algorithm and a feed forward neural network to create<br> an AI bot that can master the
+                  game at extreme levels and demonstrate neuro-evolution
+                  <br>
+                  <a href="https://github.com/abdealisaria/Game-Bot-using-AI">GitHub</a>
+                </p>
+              </div>
 
-          <p><strong>Graphical Password System</strong> <br> We propose a new click-based graphical password
-            scheme <br>
-            called Cued Click Points (CCP) to replace alphanumeric password.
-          </p>
-        </div>
-        <!-- <div class="item">
-            <a href="#!">
-              <img src="img/projects/project1.jpg" alt="Project">
-            </a>
-            <a href="#" class="btn-light">
-              <i class="fas fa-eye"></i> Project
-            </a>
-            <a href="#" class="btn-dark">
-              <i class="fab fa-github"></i> Github
-            </a>
-          </div>
-          <div class="item">
-            <a href="#!">
-              <img src="img/projects/project2.jpg" alt="Project">
-            </a>
-            <a href="#" class="btn-light">
-              <i class="fas fa-eye"></i> Project
-            </a>
-            <a href="#" class="btn-dark">
-              <i class="fab fa-github"></i> Github
-            </a>
-          </div>
-          <div class="item">
-            <a href="#!">
-              <img src="img/projects/project3.jpg" alt="Project">
-            </a>
-            <a href="#" class="btn-light">
-              <i class="fas fa-eye"></i> Project
-            </a>
-            <a href="#" class="btn-dark">
-              <i class="fab fa-github"></i> Github
-            </a>
-          </div>
-          <div class="item">
-            <a href="#!">
-              <img src="img/projects/project4.jpg" alt="Project">
+              <p><strong>Camps4u <em>(Node, Express, Bootstrap, CSS, MongoDB)</em></strong> <br>
+                CRUD website with authentication, user/admin roles and comments/review system <br>following RESTFUL
+                routes
+                displaying
+                various campsite’s information from a cloud database
+                <br>
+                <a href="https://github.com/abdealisaria/Camps4u">GitHub</a>
+              </p>
+
+              <p><strong>Sentiment Analyzer <em>(HTML, CSS, JavaScript, p5)</em></strong> <br>
+                Rule based NLP sentiment analyzer for Hindi Language using custom <br>JSON dataset inspired by AFINN-111
+                <br>
+                <a href="https://github.com/abdealisaria/Hindi-Sentiment-Analyzer">GitHub</a>
+              </p>
+
+              <p><strong>UI/UX Prototypes :</strong> <br>
+              <p><strong>Rename.io - </strong><a
+                  href="https://xd.adobe.com/view/80865b9e-4ca1-474c-4a43-021f0a6826ef-f6b7/grid"> ( Workflow ) </a><a
+                  href="https://xd.adobe.com/view/80865b9e-4ca1-474c-4a43-021f0a6826ef-f6b7/grid"> ( Clickable
+                  Prototype ) </a>
+              </p>
+              <p><strong>JaldiMeal - </strong><a
+                  href="https://www.figma.com/file/6250eQu9aOqaxy4aNeYuA7/JaldiMeal?node-id=0%3A1"> ( Workflow ) </a><a
+                  href="https://www.figma.com/proto/6250eQu9aOqaxy4aNeYuA7/JaldiMeal?node-id=57%3A7718&viewport=371%2C66%2C0.08108840137720108&scaling=min-zoom">
+                  ( Clickable
+                  Prototype ) </a>
+              </p>
+              <!-- <div class="item">
+                  <a href="#!">
+                    <img src="img/projects/project1.jpg" alt="Project">
+                  </a>
+                  <a href="#" class="btn-light">
+                    <i class="fas fa-eye"></i> Project
+                  </a>
+                  <a href="#" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#!">
+                    <img src="img/projects/project2.jpg" alt="Project">
+                  </a>
+                  <a href="#" class="btn-light">
+                    <i class="fas fa-eye"></i> Project
+                  </a>
+                  <a href="#" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#!">
+                    <img src="img/projects/project3.jpg" alt="Project">
+                  </a>
+                  <a href="#" class="btn-light">
+                    <i class="fas fa-eye"></i> Project
+                  </a>
+                  <a href="#" class="btn-dark">
+                    <i class="fab fa-github"></i> Github
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="#!">
+                    <img src="img/projects/project4.jpg" alt="Project">
             </a>
             <a href="#" class="btn-light">
               <i class="fas fa-eye"></i> Project
@@ -254,9 +306,10 @@
               <i class="fab fa-github"></i> Github
             </a>
           </div> -->
-  </div>
-  </section>
-  </main>
+            </div>
+            <i class="fa fa-arrow-down scroll scroll-contacts" aria-hidden="true"></i>
+      </section>
+    </main>
   </div>
   <div class="container">
     <main class="content" id="contact">
@@ -267,13 +320,14 @@
         </h1>
         <div class="boxes">
           <div id="email">
-            <span class="cont">Email : </span> abdealisaria@gmail.com
+            <span class="cont">Email : </span><a class="mailto"
+              href="mailto:abdealisaria@gmail.com">abdealisaria@gmail.com</a>
           </div>
           <div id="phone">
             <span class="cont">Phone : </span> (+91) 7738649642
           </div>
           <div id="address">
-            <span class="cont">Address : </span> 45, S.V.P. road, Dockyard, Mumbai-03. India
+            <span class="cont">Address : </span> 45, S.V.P. road, Sandhurst Road, Mumbai-03. India
           </div>
         </div>
     </main>
