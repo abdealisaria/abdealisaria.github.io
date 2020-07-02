@@ -401,6 +401,7 @@ main#home h1 {
   .menu-branding .portrait {
     background: url("../img/Pic.jpg");
     background-size: contain;
+    background-position: 50% 50%;
     background-color: #808080;
     width: 150px;
     height: 150px;
