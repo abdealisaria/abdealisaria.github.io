@@ -80,9 +80,9 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: white;
-  background-image: url("../img/portrait.jpg");
-  background-size: 60%;
+  background: #808080;
+  background-image: url("../img/Pic.jpg");
+  background-size: contain;
   border-radius: 50%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -399,7 +399,9 @@ main#home h1 {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../img/portrait_small.jpg");
+    background: url("../img/Pic.jpg");
+    background-size: contain;
+    background-color: #808080;
     width: 150px;
     height: 150px;
   }
@@ -469,10 +471,10 @@ main#home h1 {
     color: white;
   }
   .menu-branding .portrait {
-    background: white;
-    background-image: url("../img/portrait_small.jpg");
+    background: #808080;
+    background-image: url("../img/Pic.jpg");
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: contain;
     background-position: 50%, 50%;
     width: 150px;
     height: 150px;
