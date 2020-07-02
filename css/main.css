@@ -466,6 +466,7 @@ main#home h1 {
   #phone,
   #address {
     font-size: 0.9rem;
+    color: white;
   }
   .menu-branding .portrait {
     background: white;
