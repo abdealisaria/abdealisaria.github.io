@@ -480,6 +480,9 @@ main#home h1 {
     width: 150px;
     height: 150px;
   }
+  .lcon {
+    display: none;
+  }
 }
 #about {
   background-color: #ffffff;
@@ -496,9 +499,16 @@ main#home h1 {
   color: white;
 }
 #contact {
+  position: relative;
   background-color: #ffffff;
   background-image: linear-gradient(315deg, #ffffff 0%, #cce5ff 74%);
 }
 .exp-role {
   margin: 0.5rem 0;
+}
+.LI-profile-badge {
+  display: inline-block;
+  position: absolute;
+  left: 65%;
+  bottom: 15%;
 }
