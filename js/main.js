@@ -1,3 +1,54 @@
+// jquery
+$(document).ready(function () {
+  $("#homelink").click(function () {
+    $('html, body').animate({
+      scrollTop: $("#home").offset().top
+    }, 1000);
+  });
+});
+$(document).ready(function () {
+  $("#aboutlink").click(function () {
+    $('html, body').animate({
+      scrollTop: $("#about").offset().top
+    }, 1000);
+  });
+});
+$(document).ready(function () {
+  $(".scroll-about").click(function () {
+    $('html, body').animate({
+      scrollTop: $("#about").offset().top
+    }, 1000);
+  });
+});
+$(document).ready(function () {
+  $(".scroll-projects").click(function () {
+    $('html, body').animate({
+      scrollTop: $("#projects").offset().top
+    }, 1000);
+  });
+});
+$(document).ready(function () {
+  $(".scroll-contacts").click(function () {
+    $('html, body').animate({
+      scrollTop: $("#contact").offset().top
+    }, 1000);
+  });
+});
+$(document).ready(function () {
+  $("#contactlink").click(function () {
+    $('html, body').animate({
+      scrollTop: $("#contact").offset().top
+    }, 1000);
+  });
+});
+$(document).ready(function () {
+  $("#worklink").click(function () {
+    $('html, body').animate({
+      scrollTop: $("#work").offset().top
+    }, 1000);
+  });
+});
+
 // Select DOM Items
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
